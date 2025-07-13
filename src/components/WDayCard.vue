@@ -38,7 +38,7 @@ const temperature = computed(() => {
 
 <style scoped>
 .w-day-card {
-    min-height: 10.5rem;
+    min-height: 11.67vw;
     background-color: var(--color-bg--dark);
     flex-grow: 1;
     display: flex;
