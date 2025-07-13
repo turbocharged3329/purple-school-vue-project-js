@@ -4,6 +4,9 @@
   --color-bg: #343D4B;
   --color-bg-main: #222831;
   --color-bg--dark: #272E37;
+  --color-bg--gray: #3A434F;
+  --color-text-dark: #3F4958;
+  --color-error: #b00202;
   --btn-bg-gradient: linear-gradient(131deg, rgba(144, 217, 224, 0.9) 0%, rgba(84, 96, 230, 0.9) 100%);
   --btn-bg-gradient--inverted: linear-gradient(231deg, rgba(144, 217, 224, 0.9) 0%, rgba(84, 96, 230, 0.9) 100%);
   --font: "Montserrat", sans-serif;
@@ -28,4 +31,8 @@ body {
 button {
   font-family: var(--font), serif;
   cursor: pointer;
+}
+
+input {
+  font-family: var(--font), serif;
 }
